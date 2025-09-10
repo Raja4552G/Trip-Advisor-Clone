@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gabarito", serif;
+
+
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.navbar__s2 {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar_s3 {
+  padding: 30px;
+}
+
+.navbar__s3 button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+
+.trip {
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.trip-desc {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.trip-image {
+  text-align: center;
+
+}
+
+
+
+.search {
+  margin: 10px;
+  gap: 10px;
+  border: solid black 1px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  position: relative;
+  left: 290px;
+
+}
+
+.search__bar {
+  background-color: #34E0A1;
+  border: solid #34E0A1 1px;
+  padding: 5px;
+  border-radius: 30px;
+
+
+}
+
+.search input {
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.trip-image {
+  justify-content: center;
+  align-items: center;
+  background-color: #F2ECF9;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+
+
+
+}
+
+.go {
+  display: flex;
+  align-items: center;
+  background-color: #F2ECF9;
+  width: 1000px;
+  justify-content: center;
+  position: relative;
+  left: 300px;
+  margin-top: 10px;
+
+}
+
+.go-image {
+  padding: 30px;
+  margin: 10px;
+}
+
+.go-title {
+  padding: 10px;
+}
+
+.destination {
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.destination p {
+  padding: 10px;
+}
+
+.destination-place__image {
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.destination-1{
+  padding: 5px;
+  margin: 10px;
+}
+
+.destination-1 p{
+  padding: 10px;
+}
+
+.destination-image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+
+.footer{
+  display: flex;
+  gap: 10px;
+  background-color: aliceblue; 
+  color: gray;
+  padding: 20px;
+  /* justify-content: center;*/
+  
+}
+
+.footer p{
+  margin: 20px;
+
+}
+
+.footer i{
+  margin: 20px ;
+  
+}
+
+
+
+
+
